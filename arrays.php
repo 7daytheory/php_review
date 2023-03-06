@@ -35,5 +35,13 @@
 		print_r($ids2);
 		var_dump($ids2);
 
-	
+	//Multi-dimensional Arrays
+
+	$cars = array(
+		array('Honda', 20, 10),
+		array('VW', 23, 12),
+		array('Ford', 54, 23),
+	);
+
+	echo $cars[1][2];
 
