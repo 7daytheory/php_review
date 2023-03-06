@@ -49,7 +49,5 @@
 	//Constants 
 	define('GREETING', 'Constant'); // Constants are case sensitive by default - can change by adding  (... , ... , true) to end;
 
-	echo GREETING;
-	
 ?>
 
