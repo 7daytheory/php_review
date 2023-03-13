@@ -26,6 +26,27 @@
 
     $timestamp = mktime(1, 22, 33, 5, 11, 1991); // Hours / Mins/ Seconds / months/ Days/ Years
 
-    echo $timestamp , '<br>';
+    echo 'Timestamp: ' . $timestamp . '<br>';
 
-    echo date('m/d/Y h:i:sa', $timestamp);
+    echo 'Date Converted from Timestamp: ' . date('m/d/Y h:i:sa', $timestamp) . '<br>';
+
+    //Converting Dates to timestamps
+
+    $timestamp2 = strtotime('7:00pm March 13 2023');
+
+    echo 'Timestamp Converted from date : ' . $timestamp2 . '<br>'; 
+
+    echo 'Converted from above timestamp : ' . date('m/d/Y h:i:sa' , $timestamp2) . '<br>';
+
+    $timestamp3 = strtotime('tomorrow');
+
+    echo 'What is the date tomorrow: ' . date('m/d/Y' , $timestamp3) . '<br>'; // Tomorrow
+
+    $timestamp4 = strtotime('Next Sunday');
+
+    echo "What is the date 'Next Sunday' : " . date('m/d/Y', $timestamp4) . '<br>';
+
+    $timestamp5 = strtotime('+2 months');
+    $timestamp6 = strtotime('+2 days');
+
+    echo 'What is the date in 2 Days/Months : ' . $timestamp6;
