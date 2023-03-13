@@ -7,10 +7,12 @@
     <title>Website1 - Example</title>
 </head>
 <body>
-    <?php include('inc/header.php'); ?>
+    <?php require('inc/header.php'); 
+        //require_once('inc_header.php'); // checks if included once - if already included do not require again
+    ?>
 
     <h1>Contact</h1>
 
-    <?php include('inc/footer.php'); ?>
+    <?php require_once('inc/footer.php'); ?>
 </body>
 </html>
