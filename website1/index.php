@@ -7,16 +7,10 @@
     <title>Website1 - Example</title>
 </head>
 <body>
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="contact.php">Contact</a></li>
-    </ul>
+    <?php include('inc/header.php'); ?>
+
     <h1>Home</h1>
 
-    <footer>
-        <p>MyWebsite &copy; 2023</p>
-    </footer>
-    
+    <?php include('inc/footer.php'); ?>
 </body>
 </html>
