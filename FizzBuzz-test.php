@@ -42,3 +42,29 @@ for($i = 1;$i <= 100; $i++) {
 	} else if($arr[$num -1] === $num){
 		echo $num;
 	}
+
+	?>
+
+	<script>
+		//Javascript Solution
+	
+		for (var i = 1; i < 101; i++) {
+			if (i % 15 == 0) console.log("FizzBuzz");
+			else if (i % 3 == 0) console.log("Fizz");
+			else if (i % 5 == 0) console.log("Buzz");
+			else console.log(i);
+		}
+	
+		//Shorthand Solution
+		for (let i = 0; i < 100;) console.log((++i % 3 ? '' : 'Fizz') + (i % 5 ? '' : 'Buzz') || i)
+	
+		/* Code * Expected Output
+				Input - 2('') + ('') || i) // Output - 2
+	
+		Input - 3('Fizz') + ('') || i) // Output - Fizz
+	
+		Input - 5('') + ('Buzz') || i) // Output - Buzz
+	
+		Input - 15('Fizz' + ('Buzz') || i) // Output - FizzBuzz
+		*/
+	</script>
