@@ -59,5 +59,24 @@ echo "<br><h3>Array List</h3>";
  $numbers = range(1,20); //Creates array to range from 1 -> 20 (1,2,3 ... 18, 19, 20)
  print_r($numbers);
 
+ echo "<br><br>";
+
+ //Array Map(Similar to JS array_map)
+ $newNumbers = array_map(function($number) { //Set singular number as $number
+    return "Number ${number}";
+ }, $numbers); //Takes in the $numbers array
+
+ print_r($newNumbers);
+
+ echo "<br><br>";
+
+ $lessThan10 = array_filter($numbers, fn($number) => $number <= 10); // Shows only numbers less than 10
+
+ echo "<br>";
+
+ //Get sum of entire array
+ $sum = array_reduce($numbers, fn($carry, $number) => $carry + $number); //Carry holds value of previous interation - Gives sum of all values in array
+ var_dump($sum);
+
 
  
