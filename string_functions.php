@@ -37,5 +37,20 @@ echo substr($string, 5) . '<br>'; // Start at 5 and displays the rest (ing)
 
 //Ends with
     if(str_ends_with($string, 'ing')) {
-        echo "Yes <br>";
+        echo "Yes <br><br>";
     }
+
+$string2 = "<script>alert('test')</script>"; //Will show an alert
+//echo $string2;
+
+echo htmlspecialchars($string2); //Will display the string in string2 and not show the alert
+
+//Formatted Strings
+printf('%s likes to %s', 'Matt', 'Code'); //%s(specifier for a string) - Output : Matt likes to Code
+echo "<br>";
+printf('1+1=%d', 1+1); // %d for number(signed decimal number) - Output: 1+1=2
+echo "<br>";
+printf('2+2=%f', 2+2); //%f for float - Output 2+2=4.000000
+
+
+
