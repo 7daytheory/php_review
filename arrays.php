@@ -30,7 +30,7 @@
 	$ids2 = [31 => 'Matt', 34 => 'Erin', 62 => 'Glenn', 59 => 'Michele'];
 	echo $ids2[31];
 
-	$people2['Jill' => 45]; //Add the same way as indexed arrays basically
+	$people2 = ['Jill' => 45]; //Add the same way as indexed arrays basically
 		count($ids2);
 		print_r($ids2);
 		var_dump($ids2);
