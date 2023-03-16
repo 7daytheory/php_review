@@ -93,3 +93,80 @@ Relational databases store data in tables that consist of rows and columns, with
 ### What is MVC and what advantages does it offer?
 
 MVC stands for Model-View-Controller, and is an architectural pattern used to separate the application logic from the user interface. It offers advantages such as improved code organization, faster development, better code reusability, improved scalability,
+
+## More Common PHP Questions
+
+### Does the PHP coding language resemble any others?
+Yes, the PHP coding language resembles other languages such as JavaScript and C.
+
+### What is the difference between variables and constants?
+Variables are used to store information that can be changed, while constants are values that cannot be changed.
+
+### Explain what a session is in PHP.
+A session in PHP is a collection of variables that are stored on a web server, which can be accessed by a user during a single visit to a website.
+
+### Explain what PEAR means.
+PEAR stands for PHP Extension and Application Repository. It is a collection of code written by developers, which can be used for a variety of tasks.
+
+### Is the PHP language case sensitive?
+Yes, the PHP language is case sensitive.
+
+### Outline three PHP variables.
+Three PHP variables are strings, integers, and booleans.
+
+### Which rules must be used when naming variables in PHP?
+Variables in PHP must begin with a letter or underscore, and cannot contain spaces or symbols.
+
+### Explain the difference between “print” and “echo.”
+The difference between “print” and “echo” is that “print” returns a value and “echo” does not.
+
+### What are some advantages of PHP?
+Some advantages of PHP are that it is open source, free to use, and easy to learn.
+
+### What are some disadvantages of PHP?
+Some disadvantages of PHP are that it is not as secure as other languages, and debugging can be difficult.
+
+### Which technical skills do you need to use PHP?
+To use PHP, you need technical skills in HTML, CSS, JavaScript, databases, and general web development.
+
+### Which soft skills do you need to use PHP in a team of developers?
+Soft skills needed to use PHP in a team of developers include communication, collaboration, problem-solving, and organization.
+
+### Can PHP interact with HTML?
+Yes, PHP can interact with HTML.
+
+### Name three uses of PHP.
+Three uses of PHP are server-side scripting, command line scripting, and writing desktop applications.
+
+### Describe how dynamic and static websites are different.
+Dynamic websites are those that are constantly changing and are driven by a database. Static websites, on the other hand, remain the same until manually changed.
+
+### Explain what “NULL” means.
+NULL is a special type of value that indicates that no value has been set.
+
+### What is meant by defining constants, and how would you do this in PHP?
+Defining constants in PHP means declaring a variable that cannot be changed throughout the program. To define constants in PHP, you can use the “define()” function.
+
+### What does the “break” statement do?
+The “break” statement is used to break out of a loop, switch statement, or other code block.
+
+### What does the “continue” statement do?
+The “continue” statement is used to skip the current iteration of a loop and move on to the next iteration.
+
+### How are PHP5 and PHP7 different?
+PHP5 and PHP7 differ in terms of speed, security, and syntax. PHP7 is faster, more secure, and has more advanced syntax than PHP5.
+
+### What is meant by single inheritance in PHP?
+Single inheritance in PHP means that a class can only inherit from one parent class. 
+
+### Does PHP support multiple inheritance?
+No, PHP does not support multiple inheritance.
+
+### What does the GD library do in PHP?
+The GD library in PHP is a graphics library that allows for the creation, manipulation, and saving of images.
+
+### What does “imagetypes()” do?
+The imagetypes() function returns the image types supported by the current version of the GD library.
+
+### How would you export data in PHP to Excel?
+You can export data in PHP to Excel using the PHPExcel library.
