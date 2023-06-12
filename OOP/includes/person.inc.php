@@ -25,6 +25,16 @@ class Person {
     public $age;
     public $hair;
     public $height;
+    public $company = "My Company"; // You CAN set a value before, or use as a placeholder like undefined
+
+    //Constructor - built in method , must be named like below
+    public function __construct($propName, $propAge, $propHair, $propHeight) {
+        //Will be run at the beginning
+        $this->name = $propName;
+        $this->age = $propAge;
+        $this->hair = $propHair;
+        $this->height = $propHeight;  
+    }
 
     //Method
     public function setName($name) {

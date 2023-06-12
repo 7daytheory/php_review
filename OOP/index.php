@@ -24,13 +24,16 @@
             // echo $person01->name();
 
             //Call class
-            $person01 = new Person();
-            $person01->setName("Matthew");
-            echo $person01->name . "<br>";
+            // $person01 = new Person();
+            // $person01->setName("Matthew");
+            // echo $person01->name . "<br>";
 
-            $person02 = new Person();
-            $person02->setName("Daniel");
-            echo $person02->name;
+            // $person02 = new Person();
+            // $person02->setName("Daniel");
+            // echo $person02->name;
+
+            $person1 = new Person("Matthew", 32, "Blonde", "5'11"); //Pass in properties to Class
+            echo "Name: " . $person1->name . " Age :" . $person1->age . " Hair: " . $person1->hair . " Height: " . $person1->height . " Company : " . $person1->company;
 
         ?>
 
