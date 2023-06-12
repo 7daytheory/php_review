@@ -23,7 +23,5 @@ class NewClass {
 }
 
 //Instantiate a class - Create object that contains everything inside the class
-
-$object = new NewClass;
-
-var_dump($object);
+// $object = new NewClass;
+// var_dump($object);
