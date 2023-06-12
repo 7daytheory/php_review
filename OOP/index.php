@@ -1,5 +1,6 @@
 <?php
     include "includes/person.inc.php";
+    include "includes/newclass.inc.php";
 ?>
 
 <!DOCTYPE html>
@@ -38,6 +39,12 @@
             // $person1->setName("John");
             // echo "<br>" . $person1->name;
             echo $person1->getName();
+
+
+            /***** Deleting an object ******/
+            $object = new NewClass();
+            unset($object); //delete/unset object using built in method
+            echo $object->getProperty(); // Can't get values bc it was unset above
 
         ?>
 
