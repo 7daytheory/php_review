@@ -196,3 +196,10 @@ Gets data from the database, shows user data on the website
 	<li>Handle data submitted by user</li>
 	<li>Show DB data to the user</li>
 </ul>
+
+## Classes
+Basically, a large object that contains variables and functions that are all related to one thing (For example : users)<br>
+
+OOP - variables and functions are called Props and Methods. Very similar but not exactly the same
+
+Naming Classes - Start with Uppercase letter 
