@@ -23,9 +23,14 @@
             // $person01 = new Person();
             // echo $person01->name();
 
+            //Call class
             $person01 = new Person();
-            echo $person01->setName("Matthew");
-            echo $person01->name;
+            $person01->setName("Matthew");
+            echo $person01->name . "<br>";
+
+            $person02 = new Person();
+            $person02->setName("Daniel");
+            echo $person02->name;
 
         ?>
 
