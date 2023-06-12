@@ -1,3 +1,7 @@
+<?php
+    include "includes/person.inc.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,7 +12,7 @@
     <body>
 
         <?php
-            include("includes/person.inc.php");
+            //include("includes/person.inc.php");
             // $pet01 = new Pet();
 
             // echo $pet01->owner() . "<br>";
@@ -16,8 +20,17 @@
             // $person01 = new Person();
             // echo $person01->name();
 
+            // $person01 = new Person();
+            // echo $person01->name();
+
+            //Call class
             $person01 = new Person();
-            echo $person01->name();
+            $person01->setName("Matthew");
+            echo $person01->name . "<br>";
+
+            $person02 = new Person();
+            $person02->setName("Daniel");
+            echo $person02->name;
 
         ?>
 
