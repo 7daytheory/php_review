@@ -170,3 +170,14 @@ The imagetypes() function returns the image types supported by the current versi
 
 ### How would you export data in PHP to Excel?
 You can export data in PHP to Excel using the PHPExcel library.
+
+## OOP
+<uL>
+<li>Why OOP? Companies want OOP, not procecdural</li>
+<li>It works better in a team setting</li>
+<li>Makes easier Re-usable code!</li>
+<li>Better organized code</li>
+<li>Better with medium to large sized websites</li>
+</ul>
+
+## MVC
