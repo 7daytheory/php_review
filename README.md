@@ -180,4 +180,9 @@ You can export data in PHP to Excel using the PHPExcel library.
 <li>Better with medium to large sized websites</li>
 </ul>
 
-## MVC
+## 3 Main tasks of PHP
+<ul>
+	<li>Connect to the DB and Query within it</li>
+	<li>Handle data submitted by user</li>
+	<li>Show DB data to the user</li>
+</ul>
