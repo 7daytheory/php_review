@@ -7,7 +7,7 @@ class NewClass {
     
 }
 
-//Create object that contains everything inside the class
+//Instantiate a class - Create object that contains everything inside the class
 
 $object = new NewClass;
 
