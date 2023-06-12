@@ -180,7 +180,7 @@ You can export data in PHP to Excel using the PHPExcel library.
 <li>Better with medium to large sized websites</li>
 </ul>
 
-## MVC
+# MVC
 ### Model
 Model connects to the Database - reuse this code as much as needed
 
@@ -197,7 +197,7 @@ Gets data from the database, shows user data on the website
 	<li>Show DB data to the user</li>
 </ul>
 
-## Classes
+# Classes
 Basically, a large object that contains variables and functions that are all related to one thing (For example : users)<br>
 OOP - variables and functions are called Props and Methods. Very similar but not exactly the same<br>
 Naming Classes - Start with Uppercase letter<br>
@@ -211,4 +211,23 @@ Private variables/props are only used within the class while public can be used 
 
 ### Protected
 Can only be accessed within the same class, like private. However, it can be accessed by other classes that extends to it(inheritance)
+
+## Constructor and Destructor
+Constructor: A constructor is a method that is automatically called when an object is created from a class. It is used to initialize the object's properties or perform any other setup tasks.<br>
+Destructor: A destructor is a method that is automatically called when an object is destroyed or goes out of scope. It is used to perform cleanup tasks such as releasing resources or closing database connections.<br>
+
+<code>
+class MyClass {
+    private $property;
+
+    public function __construct($value) {
+        $this->property = $value;
+    }
+
+    public function __destruct() {
+        // Cleanup tasks
+        // e.g., closing a database connection
+    }
+}
+</code>
 

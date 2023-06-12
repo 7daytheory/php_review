@@ -21,13 +21,32 @@
 
 class Person {
     //Properties (Declare properties without values - Will be asssigning values when calling class)
-    public $name;
-    public $age;
-    public $hair;
-    public $height;
+    private $name;
+    private $age;
+    private $hair;
+    private $height;
+    private $company = "My Company"; // You CAN set a value before, or use as a placeholder like undefined
+
+    //Constructor - built in method , must be named like below
+    public function __construct($propName, $propAge, $propHair, $propHeight) {
+        //Will be run at the beginning
+        $this->name = $propName; 
+        $this->age = $propAge;
+        $this->hair = $propHair;
+        $this->height = $propHeight;  
+    }
 
     //Method
     public function setName($name) {
         $this->name = $name; //Pass in data from method
+    }
+
+    public function getName() {
+        return $this->name;
+    }
+
+    //Destructor
+    public function __destruct() {
+        //Runs at the end, used for things like closing DB connections or perform cleanup tasks such as releasing resources
     }
 }
