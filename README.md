@@ -181,3 +181,18 @@ You can export data in PHP to Excel using the PHPExcel library.
 </ul>
 
 ## MVC
+### Model
+Model connects to the Database - reuse this code as much as needed
+
+### Controller
+Controls the input from the user, queries the database
+
+### View
+Gets data from the database, shows user data on the website
+
+## 3 Main tasks of PHP
+<ul>
+	<li>Connect to the DB and Query within it</li>
+	<li>Handle data submitted by user</li>
+	<li>Show DB data to the user</li>
+</ul>
