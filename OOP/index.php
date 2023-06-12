@@ -9,12 +9,16 @@
 
         <?php
             include("includes/person.inc.php");
-            $pet01 = new Pet();
+            // $pet01 = new Pet();
 
-            echo $pet01->owner() . "<br>";
+            // echo $pet01->owner() . "<br>";
 
             // $person01 = new Person();
             // echo $person01->name();
+
+            $person01 = new Person();
+            echo $person01->name();
+
         ?>
 
     </body>
