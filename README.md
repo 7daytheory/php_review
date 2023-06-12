@@ -202,3 +202,6 @@ Basically, a large object that contains variables and functions that are all rel
 OOP - variables and functions are called Props and Methods. Very similar but not exactly the same<br>
 Naming Classes - Start with Uppercase letter<br>
 Instantiate a class - creating an object that contains all the props and methods inside the class<br>
+
+### Private vs Public
+Private variables/props are only used within the class while public can be used outside the class. A good way of doing this is setting them all to private and figuring out which ones need to be public after.
