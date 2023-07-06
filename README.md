@@ -203,6 +203,9 @@ OOP - variables and functions are called Props and Methods. Very similar but not
 Naming Classes - Start with Uppercase letter<br>
 Instantiate a class - creating an object that contains all the props and methods inside the class<br>
 
+## Instantiate
+Instantiation refers to the process of creating an object or instance of a class. For example if a class of NewClass{} is created , when we create an instance as $object -> new NewClass(); 
+
 ### Inheritance
 Using the extends keyword, a class can get access to another class by inheriting data from a separate class
 
